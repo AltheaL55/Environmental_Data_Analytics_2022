@@ -22,15 +22,15 @@ The completed exercise is due on <>.
 
 1. What are your previous experiences with data analytics, R, and Git? Include both formal and informal training.
 
-> Answer: 
+> Answer: I have been learning and using R for data analysis for about 2 years. At first, I was learning it by myself with the help of online blogs and videos. Half a year later, I started to take a formal *Ecological Data Analysis* class that included some application of models conducted by R. And for last semester, I took ENV710, which to some ectent is quite similar to the previous *Ecological Data Analysis* class (mostly the statistics part). In a word, my previous process of learning R is more about problem solving and has no solid foundation, which means I often need to look up some very simple functions when doing data cleaning. As for Github, I only have experience downloading packages and scripts.
 
 2. Are there any components of the course about which you feel confident?
 
-> Answer: 
+> Answer: I am confident with my familarity wiht RStudio.
 
 3. Are there any components of the course about which you feel apprehensive?
 
-> Answer: 
+> Answer: I am not so familiar with other languages (like html or python) and network architecture.
 
 
 ## 2) GitHub
