@@ -1,6 +1,6 @@
 ---
 title: "Assignment 2: Coding Basics"
-author: "Student Name"
+author: "Elsie Liu"
 output: pdf_document
 geometry: margin=2.54cm
 editor_options: 
@@ -12,10 +12,6 @@ editor_options:
 This exercise accompanies the lessons in Environmental Data Analytics on coding basics. 
 
 ## Directions
-1. Change "Student Name" on line 3 (above) with your name.
-2. Work through the steps, **creating code and output** that fulfill each instruction.
-3. Be sure to **answer the questions** in this assignment document.
-4. When you have completed the assignment, **Knit** the text and code into a single PDF file.
 5. After Knitting, submit the completed exercise (PDF file) to the dropbox in Sakai. Add your first and last name into the file name (e.g., "FirstLast_A02_CodingBasics.Rmd") prior to submission.
 
 
