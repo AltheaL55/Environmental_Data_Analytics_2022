@@ -93,25 +93,30 @@ Question: In the R chunk below, write "dataframe1$". Press `tab` after you type 
 Find a ten-day forecast of temperatures (Fahrenheit) for Durham, North Carolina. Create two vectors, one representing the high temperature on each of the ten days and one representing the low.
 
 ```{r}
-
+highTF <- c(45, 48, 35, 43, 52, 51, 60, 66, 59, 45)
+lowTF <- c(27, 27, 15, 26, 25, 33, 49, 48, 27, 22)
 ```
 
 Now, create two additional vectors that include the ten-day forecast for the high and low temperatures in Celsius. Use a function to create the two new vectors from your existing ones in Fahrenheit.
 
 ```{r}
-
+highTC <- (highTF-32) *5/9
+lowTC <- (lowTF-32) *5/9
 ```
 
 Combine your four vectors into a data frame and add informative column names.
 
 ```{r}
-
+Tforc <- data.frame(lowTF,highTF,lowTC,highTC)
+colnames(Tforc) <- c("low temperature (F)","high temperature (F)","low temperature (C)", "high temperature (C)")
 ```
 
 Use the common functions `summary` and `sd` to obtain basic data summaries of the ten-day forecast. How would you call these functions differently for the entire data frame vs. a single column? Attempt to demonstrate both options below.
 
 ```{r}
-
+summary(Tforc)
+sd(Tforc$`low temperature (F)`)
+sd(Tforc$`high temperature (F)`)
 ```
 
 ### Date objects
@@ -134,7 +139,7 @@ Remember formatting of dates in R:
 # (code must be uncommented)
 today <- Sys.Date()
 format(today, format = "%B")
-#format(today, format = "")
+format(today, format = "%m-%d-%Y") #US format
 #format(today, format = "")
 #format(today, format = "")
 
