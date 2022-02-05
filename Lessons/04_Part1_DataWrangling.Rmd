@@ -135,7 +135,6 @@ NTL.phys.data.depth.descending <- arrange(NTL.phys.data, desc(depth))
 
 
 ```
-### Select
 
 Selecting allows us to choose certain columns (variables) in our dataset.
 
