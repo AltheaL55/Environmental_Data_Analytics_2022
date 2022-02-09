@@ -19,6 +19,7 @@ This exercise accompanies the lessons in Environmental Data Analytics on Data Wr
 library(plyr)
 library(tidyverse)
 library(lubridate)
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=60), tidy=TRUE, echo=TRUE)
 getwd()
 airo318<- read.csv("../Data/Raw/EPAair_O3_NC2018_raw.csv")
 airo319<- read.csv("../Data/Raw/EPAair_O3_NC2019_raw.csv")
